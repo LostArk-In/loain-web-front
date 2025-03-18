@@ -1,0 +1,21 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+/* 기본 라이트 모드 스타일 */
+* {
+    margin: 0; padding: 0; box-sizing:border-box;
+    --bg-color: #ffffff;
+    --text-color: #272727;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "42dot Sans", sans-serif; /* 구글 폰트 적용 */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  }
+  
+  /* 다크 모드 스타일 */
+  .dark-mode * {
+    --bg-color: #272727;
+    --text-color: #ffffff;
+  }
+  

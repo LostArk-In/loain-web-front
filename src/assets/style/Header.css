@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: var(--bg-color); /* ✅ 배경색을 CSS 변수로 변경 */
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.header_logo img {
+    height: 40px;
+}
+
+/* 네비게이션 및 유틸리티 메뉴 */
+.header_nav {
+    display: flex;
+    gap: 120px;
+}
+
+.header_utils {
+    display: flex;
+    gap: 20px;
+}
+
+.header_nav-item,
+.header_utils-item {
+    cursor: pointer;
+    color: var(--text-color);
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* 호버 효과 */
+.header_nav-item:hover,
+.header_utils-item:hover {
+    color: #7a4eff;
+}
