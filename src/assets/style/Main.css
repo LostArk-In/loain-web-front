@@ -3,6 +3,19 @@
   height: 700px;
   position: relative;
 }
+.main .banner{
+  width: 400px;
+  height: 236px;
+  border-radius: 20px;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-image: url(/src/assets/images/main.jpg);
+}
 
 .main .search {
   width: 1000px;

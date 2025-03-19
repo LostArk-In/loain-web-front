@@ -32,6 +32,7 @@ const Main = () => {
 
     return (
         <div className='main'>
+            <div className='banner'></div>
             <div className='search'>
                 <input 
                     className="search_input" 
