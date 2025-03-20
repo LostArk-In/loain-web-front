@@ -20,7 +20,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.8;
   background-image: url(/src/assets/images/main.jpg);
 }
 
@@ -91,8 +91,9 @@
 }
 
 .adventure_image{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
   margin:auto;
   background-color: var(--text-color);
 }
@@ -102,7 +103,10 @@
 .adventure_island .adventure_3
 {
   display: flex;
-  margin: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
 }
 .adventure_island_info{
   width: 80%;
@@ -111,11 +115,16 @@
 .adventure_reward{
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
 }
 .adventure_type{
   border: 1px solid var(--text-color);
   padding: 4px 6px;
   border-radius: 10px;
+  font-size: 14px;
+}
+
+.adventure_name{
+  padding: 4px 0px;
 }
