@@ -14,7 +14,7 @@
   width: 80%; /* 고정값 대신 유동적인 값 사용 */
   max-width: 500px;
   height: auto;
-  margin: 20px 0px;
+  margin: 100px 0px;
   aspect-ratio: 400 / 236; /* 원본 비율 유지 */
   border-radius: 10px;
   background-size: contain;
@@ -34,7 +34,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .main .search_input {
@@ -127,4 +127,26 @@
 
 .adventure_name{
   padding: 4px 0px;
+}
+
+.procyon_image1,
+.procyon_image2,
+.procyon_image3{
+  width: 230px;
+  height: 230px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 13px;
+  border-radius: 5px;
+}
+
+.procyon_image1{
+  background-image: url(/src/assets/images/field_boss.png);
+}
+.procyon_image2{
+  background-image: url(/src/assets/images/chaos_gate.png);
+}
+.procyon_image3{
+  background-image: url(/src/assets/images/begining_island.png);
 }
