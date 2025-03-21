@@ -5,7 +5,7 @@
 * {
     margin: 0; padding: 0; box-sizing:border-box;
     --bg-color: #ffffff;
-    --text-color: #272727;
+    --text-color: #404040;
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: "42dot Sans", sans-serif; /* 구글 폰트 적용 */
